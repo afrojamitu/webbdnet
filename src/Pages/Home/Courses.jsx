@@ -16,7 +16,7 @@ const Courses = () => {
 
 
     return (
-        <div className='bg-gradient-to-r from-cyan-300 to-blue-500 md:py-16 pt-[1700px]'>
+        <div className='bg-gradient-to-r from-cyan-300 to-blue-500 md:py-16 pt-[1700px] pb-10'>
 
             <div className='flex flex-col items-center justify-center pb-10 text-white'>
                 <img className='w-80' src={header} />
