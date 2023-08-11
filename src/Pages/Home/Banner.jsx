@@ -58,15 +58,15 @@ const Banner = () => {
                     {/* diamond */}
                 </div>
 
-                <div className='md:w-8/12 md:mx-auto mx-5 flex flex-col items-center absolute md:top-32 top-[760px] md:left-[17%]'>
-                    <img className='w-28' src={hat} alt="" />
-                    <h1 className="text-xl md:text-3xl font-bold text-center text-slate-600">The Main objective of this setup is how to develop Skill's on digital marketing And how to generate revenue on it</h1>
+                <div className='md:w-8/12 md:mx-auto mx-5 flex flex-col items-center absolute md:top-32 top-[800px] md:left-[17%]'>
+                    <img className='w-16 md:w-28' src={hat} alt="" />
+                    <h1 className="text-lg md:text-3xl font-bold text-center text-slate-600">The Main objective of this setup is how to develop Skill's on digital marketing And how to generate revenue on it</h1>
                 </div>
 
             </div>
 
             <div className='md:w-9/12 md:mx-auto mx-5 pt-52 md:pt-0 grid md:flex items-center gap-16 md:gap-8 absolute top-[800px] md:left-[13%]'>
-                <div className='h-[180px] w-full bg-gradient-to-b from-cyan-400 to-blue-500 text-white text-center rounded-lg relative shadow-xl shadow-slate-300'>
+                <div className='h-[180px] w-full bg-gradient-to-b from-cyan-400 to-blue-500 text-white text-center rounded-lg relative shadow-md md:shadow-xl shadow-slate-300'>
                     <div className='bg-white p-5 w-24 h-24 rounded-full absolute -top-10 left-[36%] flex justify-center items-center hover:scale-110' style={{ boxShadow: 'inset 0 0 7px 0 black', transition: '.4s' }}>
                         <img className='' src={icon1} alt="" />
                     </div>
@@ -76,7 +76,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className='h-[180px] w-full bg-gradient-to-b from-green-600 to-blue-500 text-white text-center rounded-lg relative shadow-xl shadow-slate-300'>
+                <div className='h-[180px] w-full bg-gradient-to-b from-green-600 to-blue-500 text-white text-center rounded-lg relative  shadow-md md:shadow-xl shadow-slate-300'>
                     <div className='bg-white p-5 w-24 h-24 rounded-full absolute -top-10 left-[36%] flex justify-center items-center hover:scale-110' style={{ boxShadow: 'inset 0 0 7px 0 black', transition: '.4s' }}>
                         <img className='w-20' src={icon2} alt="" />
                     </div>
@@ -86,7 +86,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className='h-[180px] w-full bg-gradient-to-b from-cyan-400 to-blue-500 text-white text-center rounded-lg relative shadow-xl shadow-slate-300'>
+                <div className='h-[180px] w-full bg-gradient-to-b from-cyan-400 to-blue-500 text-white text-center rounded-lg relative  shadow-md md:shadow-xl shadow-slate-300'>
                     <div className='bg-white p-5 w-24 h-24 rounded-full absolute -top-10 left-[36%] flex justify-center items-center hover:scale-110' style={{ boxShadow: 'inset 0 0 7px 0 black', transition: '.4s' }}>
                         <img className='w-8' src={icon3} alt="" />
                     </div>

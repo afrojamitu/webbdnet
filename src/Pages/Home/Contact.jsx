@@ -3,10 +3,10 @@ import { FaEnvelope, FaLocationArrow, FaPhoneVolume, FaSearchLocation } from 're
 
 const Contact = () => {
     return (
-        <div className='bg-gradient-to-r from-cyan-300 to-blue-500 md:py-16 pt-[1700px] pb-10'>
-            <h1 className="text-5xl font-semibold text-center text-white">CONTACT DETAILS</h1>
+        <div className='bg-gradient-to-r from-cyan-300 to-blue-500 md:py-16 py-10 pb-10'>
+            <h1 className="text-3xl md:text-5xl font-semibold text-center text-white">CONTACT DETAILS</h1>
 
-            <div className='md:w-10/12 md:mx-auto mx-5 grid md:grid-cols-12 justify-between gap-5 pt-10'>
+            <div className='md:w-10/12 md:mx-auto mx-3 grid md:grid-cols-12 justify-between gap-5 pt-10'>
                 <div className=' md:col-start-1 md:col-end-5 bg-white p-5 rounded-lg space-y-3'>
                     <h1 className="text-xl font-bold">Get in Touch</h1>
                     <h1 className="text-base font-semibold">Feel free to reach out to us with any questions or inquiries.</h1>

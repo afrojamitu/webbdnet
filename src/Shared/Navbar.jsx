@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <div className='bg-black'>
             <div className="navbar fixed z-10 md:px-16 px-5 bg-black shadow-md text-white">
-                <div className="navbar-start w-full flex flex-row-reverse justify-between">
+                <div className="navbar-start md:w-96 w-full flex flex-row-reverse justify-between">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <FaBars className='text-3xl' />
@@ -31,10 +31,10 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to='/' className='flex items-center'><img className='w-12 cursor-pointer' src={logo} alt="" />
-                        <h1 className='text-2xl font-semibold hidden md:block' style={{ fontFamily: 'Signika Negative' }}>WebbdNet</h1></Link>
+                        <h1 className='text-2xl font-semibold' style={{ fontFamily: 'Signika Negative' }}>WebbdNet</h1></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 text-base ">
+                    <ul className="menu menu-horizontal px-1 text-base">
                         {navlinks}
                     </ul>
                 </div>

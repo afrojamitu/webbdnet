@@ -5,12 +5,12 @@ import file from '../../assets/file.png'
 
 const Services = () => {
     return (
-        <div className='w-full bg-fixed px-12 py-28' style={{ backgroundImage: `url("${bg}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+        <div className='w-full bg-fixed px-5 md:px-12 py-28' style={{ backgroundImage: `url("${bg}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
 
-            <div className='bg-slate-100 p-5'>
+            <div className='bg-slate-100 p-3 md:p-5'>
                 <div className='flex flex-col justify-center items-center md:w-9/12 md:mx-auto mx-5 font-semibold'>
                     <img className='w-60' src={serviceBG} alt="" />
-                    <h1 className="text-5xl">OUR SERVICES</h1>
+                    <h1 className="text-3xl md:text-5xl">OUR SERVICES</h1>
                     <h1 className="text-lg md:text-center">WEBBDNET E-LEARNING PLATFORM GIVES YOU A CORPORATE ENVIRONMENT AND HELPFULL DIGITAL MARKETING COMMUNITY</h1>
                 </div>
 

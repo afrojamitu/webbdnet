@@ -20,7 +20,7 @@ const Courses = () => {
 
             <div className='flex flex-col items-center justify-center pb-10 text-white'>
                 <img className='w-80' src={header} />
-                <h1 className="text-5xl font-semibold">POPULAR COURSES</h1>
+                <h1 className="text-3xl md:text-5xl text-center font-semibold">POPULAR COURSES</h1>
                 <h1 className="text-lg font-semibold md:w-8/12 md:mx-auto mx-5 text-center text-slate-200">THERE ARE COURSES IN A WIDE VARIETY OF SUBJECTS, FROM COSMETOLOGY TO ENGINEERING, FOOD AND BEVERAGE STUDIES TO LAW AND REGULATIONS, BIOLOGY TO FASHION.</h1>
             </div>
 

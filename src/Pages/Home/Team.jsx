@@ -10,7 +10,7 @@ const Team = () => {
         <div className='bg-gradient-to-r from-blue-500 to-cyan-300 md:py-16 pt-[70px] pb-10 text-white'>
             <div className='md:w-7/12 md:mx-auto mx-5'>
                 <div className='flex flex-col justify-center items-center md:w-9/12 md:mx-auto mx-5 font-semibold'>
-                    <h1 className="text-5xl">OUR TEAM</h1>
+                    <h1 className="text-3xl md:text-5xl">OUR TEAM</h1>
                     <h1 className="text-lg text-center">WEBBDNET E-LEARNING PLATFORM GIVES YOU A CORPORATE ENVIRONMENT AND HELPFULL DIGITAL MARKETING COMMUNITY</h1>
                 </div>
 
