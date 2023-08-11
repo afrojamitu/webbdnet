@@ -5,6 +5,7 @@ import Services from './Services';
 import Team from './Team';
 import Events from './Events';
 import Contact from './Contact';
+import FAQ from './FAQ';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Team></Team>
             <Events></Events>
             <Contact></Contact>
+            <FAQ></FAQ>
         </div>
     );
 };
